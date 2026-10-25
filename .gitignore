@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+app.log
+sensor.db
+
+# B06 生成物（可随时用 ml_pipeline.py / train_model.py 重新生成）
+ml_data/
+models/
+
+# B07 视觉：YOLO 权重（ultralytics 自动下载）与用户上传的摄像头图片
+*.pt
+static/uploads/*
